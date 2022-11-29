@@ -370,9 +370,9 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="factura" mc="Standard.AssociationEnd" uid="8d8181e3-41c8-4ac6-abd8-742a4dac3efd"/>
+          <ID name="factura" mc="Standard.AssociationEnd" uid="aa67a748-32bc-4844-9ac8-f38971eb8056"/>
           <ATTRIBUTES>
-            <ATT name="Aggregation">KindIsAssociation</ATT>
+            <ATT name="Aggregation">KindIsComposition</ATT>
             <ATT name="IsChangeable">true</ATT>
             <ATT name="Changeable">ReadWrite</ATT>
             <ATT name="IsDerived">false</ATT>
@@ -392,7 +392,7 @@
             </LINK>
             <COMP relation="Opposite">
               <OBJECT>
-                <ID name="" mc="Standard.AssociationEnd" uid="58d37319-1bda-418a-b1a4-e1bd7e7682c4"/>
+                <ID name="" mc="Standard.AssociationEnd" uid="714d7fd7-9e86-4a70-a391-7543982d64ba"/>
                 <ATTRIBUTES>
                   <ATT name="Aggregation">KindIsAssociation</ATT>
                   <ATT name="IsChangeable">true</ATT>
@@ -400,7 +400,7 @@
                   <ATT name="IsDerived">false</ATT>
                   <ATT name="IsOrdered">false</ATT>
                   <ATT name="IsUnique">false</ATT>
-                  <ATT name="MultiplicityMin"><![CDATA[0]]></ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
                   <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
                   <ATT name="Visibility">Public</ATT>
                   <ATT name="IsClass">false</ATT>
@@ -410,11 +410,11 @@
                 </ATTRIBUTES>
                 <DEPENDENCIES>
                   <COMP relation="Opposite">
-                    <COMPID name="factura" mc="Standard.AssociationEnd" uid="8d8181e3-41c8-4ac6-abd8-742a4dac3efd"/>
+                    <COMPID name="factura" mc="Standard.AssociationEnd" uid="aa67a748-32bc-4844-9ac8-f38971eb8056"/>
                   </COMP>
                   <COMP relation="Association">
                     <OBJECT>
-                      <ID name="" mc="Standard.Association" uid="58246344-d97d-4e43-bd3f-bafdd05e35ee"/>
+                      <ID name="" mc="Standard.Association" uid="12fdaa20-70cf-4ba5-bcd7-de372e9f0e20"/>
                       <ATTRIBUTES>
                         <ATT name="Name"></ATT>
                         <ATT name="status">1970354901745664</ATT>
@@ -426,7 +426,7 @@
               </OBJECT>
             </COMP>
             <COMP relation="Association">
-              <COMPID name="" mc="Standard.Association" uid="58246344-d97d-4e43-bd3f-bafdd05e35ee"/>
+              <COMPID name="" mc="Standard.Association" uid="12fdaa20-70cf-4ba5-bcd7-de372e9f0e20"/>
             </COMP>
           </DEPENDENCIES>
         </OBJECT>

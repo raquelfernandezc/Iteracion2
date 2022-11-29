@@ -1,0 +1,435 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="DiagramaColaboracionRecibirPedido" version="4">
+  <OBJECT>
+    <ID name="DiagramaColaboracionRecibirPedido" mc="Standard.CommunicationInteraction" uid="a8b7b203-5914-44ff-8fa7-f258cb48c0cf"/>
+    <PID name="CasosDeUso" mc="Standard.Package" uid="cb533d81-a49b-45ea-a535-e0359ea8de0b"/>
+    <ATTRIBUTES>
+      <ATT name="IsReentrant">false</ATT>
+      <ATT name="Name"><![CDATA[DiagramaColaboracionRecibirPedido]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Owned">
+        <OBJECT>
+          <ID name="" mc="Standard.CommunicationNode" uid="3b4b5617-1ca1-46aa-8b33-ba83876a989d"/>
+          <ATTRIBUTES>
+            <ATT name="Selector"></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Represented">
+              <REFOBJ>
+                <ID name="r" mc="Standard.BindableInstance" uid="2daa7868-2d98-4ffa-8d9e-879961695676"/>
+              </REFOBJ>
+            </LINK>
+            <COMP relation="Started">
+              <OBJECT>
+                <ID name="" mc="Standard.CommunicationChannel" uid="41b327f3-e3ed-4e1f-930e-af84fd7f9318"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="StartToEndMessage">
+                    <OBJECT>
+                      <ID name="m" mc="Standard.CommunicationMessage" uid="2a5bcbd3-5108-449c-8e1d-2cd8a5cb625f"/>
+                      <ATTRIBUTES>
+                        <ATT name="Argument"><![CDATA[numero_pedido]]></ATT>
+                        <ATT name="Sequence"><![CDATA[1]]></ATT>
+                        <ATT name="SortOfMessage">SyncCall</ATT>
+                        <ATT name="Name"><![CDATA[m]]></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <LINK relation="Invoked">
+                          <REFOBJ>
+                            <ID name="seleccionarPedido" mc="Standard.Operation" uid="5da1237c-077e-48e0-a280-e401b7ec7427"/>
+                          </REFOBJ>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                    <OBJECT>
+                      <ID name="m1" mc="Standard.CommunicationMessage" uid="3f38995b-24ec-47d0-a0c3-493e6fbc4cfb"/>
+                      <ATTRIBUTES>
+                        <ATT name="Argument"><![CDATA[numero_pedido]]></ATT>
+                        <ATT name="Sequence"><![CDATA[2]]></ATT>
+                        <ATT name="SortOfMessage">SyncCall</ATT>
+                        <ATT name="Name"><![CDATA[m1]]></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <LINK relation="Invoked">
+                          <REFOBJ>
+                            <ID name="cambiarEstadoPedido" mc="Standard.Operation" uid="e3dad5eb-b300-46ab-a23c-b2f707ac171d"/>
+                          </REFOBJ>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                    <OBJECT>
+                      <ID name="m2" mc="Standard.CommunicationMessage" uid="7f267078-7167-40f7-b9c2-9ab704099ec5"/>
+                      <ATTRIBUTES>
+                        <ATT name="Argument"></ATT>
+                        <ATT name="Sequence"><![CDATA[3]]></ATT>
+                        <ATT name="SortOfMessage">SyncCall</ATT>
+                        <ATT name="Name"><![CDATA[m2]]></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <LINK relation="Invoked">
+                          <REFOBJ>
+                            <ID name="confirmarAccion" mc="Standard.Operation" uid="ce56f976-23ed-431f-9035-73ca167865ee"/>
+                          </REFOBJ>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                  <LINK relation="End">
+                    <REFOBJ>
+                      <ID name="r1" mc="Standard.CommunicationNode" uid="7c852c44-38ea-47e1-baef-0562f2e3fb90"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="r1" mc="Standard.CommunicationNode" uid="7c852c44-38ea-47e1-baef-0562f2e3fb90"/>
+          <ATTRIBUTES>
+            <ATT name="Selector"></ATT>
+            <ATT name="Name"><![CDATA[r1]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Represented">
+              <REFOBJ>
+                <ID name="r1" mc="Standard.BindableInstance" uid="d054c480-ff6b-4d2c-8459-f8ae79a484db"/>
+              </REFOBJ>
+            </LINK>
+            <COMP relation="Started">
+              <OBJECT>
+                <ID name="" mc="Standard.CommunicationChannel" uid="7203bb9f-4599-4ab0-bb0f-11f67ff7bd6e"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="StartToEndMessage">
+                    <OBJECT>
+                      <ID name="m" mc="Standard.CommunicationMessage" uid="64094331-c6c3-492b-8d84-c5769016969e"/>
+                      <ATTRIBUTES>
+                        <ATT name="Argument"><![CDATA[id_pedido]]></ATT>
+                        <ATT name="Sequence"><![CDATA[1.1]]></ATT>
+                        <ATT name="SortOfMessage">SyncCall</ATT>
+                        <ATT name="Name"><![CDATA[m]]></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <LINK relation="Invoked">
+                          <REFOBJ>
+                            <ID name="getPedido" mc="Standard.Operation" uid="ef073adb-ddf9-44f4-8e66-becf1815e0f4"/>
+                          </REFOBJ>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                    <OBJECT>
+                      <ID name="m1" mc="Standard.CommunicationMessage" uid="b07296f6-8f22-4ce6-aeb3-5bf446760a59"/>
+                      <ATTRIBUTES>
+                        <ATT name="Argument"><![CDATA[numero_pedido]]></ATT>
+                        <ATT name="Sequence"><![CDATA[3.1]]></ATT>
+                        <ATT name="SortOfMessage">SyncCall</ATT>
+                        <ATT name="Name"><![CDATA[m1]]></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <LINK relation="Invoked">
+                          <REFOBJ>
+                            <ID name="modificarEstadoPedido" mc="Standard.Operation" uid="e8f2194a-fb32-46d9-a0de-e5739f029179"/>
+                          </REFOBJ>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                  <LINK relation="End">
+                    <REFOBJ>
+                      <ID name="pedido " mc="Standard.CommunicationNode" uid="ff8bb34b-d8d4-4487-b9e4-799dc8cbbc28"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="r2" mc="Standard.CommunicationNode" uid="ecfc4bfd-ff3f-45b2-9a5b-d6052b584edf"/>
+          <ATTRIBUTES>
+            <ATT name="Selector"></ATT>
+            <ATT name="Name"><![CDATA[r2]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Represented">
+              <REFOBJ>
+                <ID name="r2" mc="Standard.BindableInstance" uid="c03d1fa0-b8c4-4a66-aa35-ef08ad73113c"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="pedido " mc="Standard.CommunicationNode" uid="ff8bb34b-d8d4-4487-b9e4-799dc8cbbc28"/>
+          <ATTRIBUTES>
+            <ATT name="Selector"></ATT>
+            <ATT name="Name"><![CDATA[pedido ]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Represented">
+              <REFOBJ>
+                <ID name="r4" mc="Standard.BindableInstance" uid="ee9d9c3f-b666-4646-b04d-bf40a2282923"/>
+              </REFOBJ>
+            </LINK>
+            <COMP relation="Started">
+              <OBJECT>
+                <ID name="" mc="Standard.CommunicationChannel" uid="6e93eb13-23b0-43eb-bcb8-68b7b718ae39"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="StartToEndMessage">
+                    <OBJECT>
+                      <ID name="m" mc="Standard.CommunicationMessage" uid="4c359c20-0a05-4b54-8030-0ca6b5cc20f4"/>
+                      <ATTRIBUTES>
+                        <ATT name="Argument"><![CDATA[id_pedido]]></ATT>
+                        <ATT name="Sequence"><![CDATA[1.2]]></ATT>
+                        <ATT name="SortOfMessage">SyncCall</ATT>
+                        <ATT name="Name"><![CDATA[m]]></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <LINK relation="Invoked">
+                          <REFOBJ>
+                            <ID name="selectPedido" mc="Standard.Operation" uid="3d504d09-7406-448c-944f-4be216532f35"/>
+                          </REFOBJ>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                    <OBJECT>
+                      <ID name="" mc="Standard.CommunicationMessage" uid="52bea407-fac1-4c0b-8b5a-fbad5bf5221e"/>
+                      <ATTRIBUTES>
+                        <ATT name="Argument"><![CDATA[estado]]></ATT>
+                        <ATT name="Sequence"><![CDATA[3.3]]></ATT>
+                        <ATT name="SortOfMessage">SyncCall</ATT>
+                        <ATT name="Name"></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <LINK relation="Invoked">
+                          <REFOBJ>
+                            <ID name="updatePedido" mc="Standard.Operation" uid="5af07acb-2443-4f3b-b563-c432cb0ea165"/>
+                          </REFOBJ>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                  <LINK relation="End">
+                    <REFOBJ>
+                      <ID name="r2" mc="Standard.CommunicationNode" uid="ecfc4bfd-ff3f-45b2-9a5b-d6052b584edf"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="" mc="Standard.CommunicationChannel" uid="3c576a4e-3ffd-407c-b2b9-bbfdd8130fc3"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="StartToEndMessage">
+                    <OBJECT>
+                      <ID name="m" mc="Standard.CommunicationMessage" uid="1c70dd30-cffc-497c-a4ee-806703c0cbc0"/>
+                      <ATTRIBUTES>
+                        <ATT name="Argument"></ATT>
+                        <ATT name="Sequence"><![CDATA[3.2]]></ATT>
+                        <ATT name="SortOfMessage">SyncCall</ATT>
+                        <ATT name="Name"><![CDATA[m]]></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <LINK relation="Invoked">
+                          <REFOBJ>
+                            <ID name="addPedido" mc="Standard.Operation" uid="1fc10806-db18-4338-9ae5-6cf8e14a85a8"/>
+                          </REFOBJ>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                  <LINK relation="End">
+                    <REFOBJ>
+                      <ID name="r6" mc="Standard.CommunicationNode" uid="f700dd9b-eaa5-4d07-b6be-7195dc1009ca"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="r6" mc="Standard.CommunicationNode" uid="f700dd9b-eaa5-4d07-b6be-7195dc1009ca"/>
+          <ATTRIBUTES>
+            <ATT name="Selector"></ATT>
+            <ATT name="Name"><![CDATA[r6]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Represented">
+              <REFOBJ>
+                <ID name="r6" mc="Standard.BindableInstance" uid="d63e4931-431d-4869-b800-6fbdfa949576"/>
+              </REFOBJ>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="OwnedCollaboration">
+        <OBJECT>
+          <ID name="locals" mc="Standard.Collaboration" uid="7d366782-941b-46d9-80fb-949e9d70b4e6"/>
+          <ATTRIBUTES>
+            <ATT name="IsConcurrent">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="IsLeaf">false</ATT>
+            <ATT name="IsRoot">false</ATT>
+            <ATT name="Visibility">Public</ATT>
+            <ATT name="Name"><![CDATA[locals]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <COMP relation="Declared">
+              <OBJECT>
+                <ID name="r" mc="Standard.BindableInstance" uid="2daa7868-2d98-4ffa-8d9e-879961695676"/>
+                <ATTRIBUTES>
+                  <ATT name="IsConstant">false</ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                  <ATT name="Value"></ATT>
+                  <ATT name="Name"><![CDATA[r]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <ID name="Personal de almacén" mc="Standard.Actor" uid="1ff03ee8-c8f3-4cc4-9c08-60051a0ef571"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="r1" mc="Standard.BindableInstance" uid="d054c480-ff6b-4d2c-8459-f8ae79a484db"/>
+                <ATTRIBUTES>
+                  <ATT name="IsConstant">false</ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                  <ATT name="Value"></ATT>
+                  <ATT name="Name"><![CDATA[r1]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <ID name="Controlador_Personal_Almacen" mc="Standard.Class" uid="de8f1afa-e5df-4ec2-90e5-0490c1d15eb1"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="r2" mc="Standard.BindableInstance" uid="c03d1fa0-b8c4-4a66-aa35-ef08ad73113c"/>
+                <ATTRIBUTES>
+                  <ATT name="IsConstant">false</ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                  <ATT name="Value"></ATT>
+                  <ATT name="Name"><![CDATA[r2]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <ID name="Fachada_BBDD" mc="Standard.Class" uid="7f851f95-13d3-41e9-8e8d-c6e83a5ddff2"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="r3" mc="Standard.BindableInstance" uid="24f92dac-8189-4b2f-9962-578ca4769bd8"/>
+                <ATTRIBUTES>
+                  <ATT name="IsConstant">false</ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                  <ATT name="Value"></ATT>
+                  <ATT name="Name"><![CDATA[r3]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <ID name="Interfaz_Responsable_Almacen" mc="Standard.Class" uid="9284b35d-d1e7-4331-83ed-8aab7bc454dd"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="r4" mc="Standard.BindableInstance" uid="ee9d9c3f-b666-4646-b04d-bf40a2282923"/>
+                <ATTRIBUTES>
+                  <ATT name="IsConstant">false</ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                  <ATT name="Value"></ATT>
+                  <ATT name="Name"><![CDATA[r4]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <ID name="Pedido" mc="Standard.Class" uid="8b540505-cc96-40db-9c20-8c6861d5b35d"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="r5" mc="Standard.BindableInstance" uid="10402ab0-bf14-4b0b-ba13-18d741b2b43c"/>
+                <ATTRIBUTES>
+                  <ATT name="IsConstant">false</ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                  <ATT name="Value"></ATT>
+                  <ATT name="Name"><![CDATA[r5]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="RepresentedFeature">
+                    <REFOBJ>
+                      <ID name="numero_Pedido" mc="Standard.Attribute" uid="6bd175c9-c4ce-43f8-8e55-f7b6db5db466"/>
+                    </REFOBJ>
+                  </LINK>
+                  <LINK relation="Base">
+                    <FOREIGNID name="integer" mc="Standard.DataType" uid="00000004-0000-0009-0000-000000000000"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+              <OBJECT>
+                <ID name="r6" mc="Standard.BindableInstance" uid="d63e4931-431d-4869-b800-6fbdfa949576"/>
+                <ATTRIBUTES>
+                  <ATT name="IsConstant">false</ATT>
+                  <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+                  <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+                  <ATT name="Value"></ATT>
+                  <ATT name="Name"><![CDATA[r6]]></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <LINK relation="Base">
+                    <ID name="Pedido" mc="Standard.Class" uid="8b540505-cc96-40db-9c20-8c6861d5b35d"/>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
+            </COMP>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Communication Interaction Communication diagram" mc="Standard.CommunicationDiagram" uid="166fc117-2758-4a66-9830-2cfacd5d3016"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

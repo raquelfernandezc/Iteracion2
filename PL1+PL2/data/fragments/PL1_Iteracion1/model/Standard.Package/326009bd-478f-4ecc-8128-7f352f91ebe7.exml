@@ -16,6 +16,7 @@
       <COMP relation="OwnedBehavior">
         <COMPID name="CU25-RecibirPedido" mc="Standard.BpmnCollaboration" uid="8fd93c12-1106-4ebd-bea5-078730a3500f"/>
         <COMPID name="CU-4" mc="Standard.BpmnCollaboration" uid="64f3cc72-947d-41b9-af1a-e309bec589ef"/>
+        <COMPID name="Collaboration" mc="Standard.BpmnCollaboration" uid="f10fb355-c543-4016-b432-dc07d3a0d38f"/>
       </COMP>
       <COMP relation="OwnedElement">
         <COMPID name="ControladorPersonalAlmacen" mc="Standard.Class" uid="dbfe8783-b5ec-4d4d-a4e0-cfb4a83df970"/>

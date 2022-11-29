@@ -1,3 +1,5 @@
-#Tue Nov 29 17:33:27 CET 2022
+#Tue Nov 29 19:27:35 CET 2022
+org.modelio.app.diagram.editor.OpenedDiagrams3=' Collaboration' {5ae9ed2b-2b5f-483b-8fd7-3ee826131518} Standard.BpmnCollaborationDiagram
+org.modelio.app.diagram.editor.OpenedDiagrams2='Communication Interaction Communication diagram' {166fc117-2758-4a66-9830-2cfacd5d3016} Standard.CommunicationDiagram
 org.modelio.app.diagram.editor.OpenedDiagrams1='CU4 -DarAltaCliente' {ad83573f-bf84-442a-801a-8be670205377} Standard.ClassDiagram
 org.modelio.app.diagram.editor.OpenedDiagrams0='DiagramaClasesDise\u00F1o Class diagram' {114ddf6f-f159-4626-be84-3f71de61b2b6} Standard.ClassDiagram
