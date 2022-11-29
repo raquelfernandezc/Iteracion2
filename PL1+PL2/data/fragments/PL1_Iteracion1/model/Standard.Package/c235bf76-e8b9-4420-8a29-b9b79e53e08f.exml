@@ -1,0 +1,55 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="DiagramaClasesDiseño" version="4">
+  <OBJECT>
+    <ID name="DiagramaClasesDiseño" mc="Standard.Package" uid="c235bf76-e8b9-4420-8a29-b9b79e53e08f"/>
+    <PID name="PL1_Iteracion1" mc="Standard.Project" uid="05115382-c42f-4d77-b77b-69ac1171c84d"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[DiagramaClasesDiseño]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Contenida_En" mc="Standard.Class" uid="682361ca-abb7-49c9-b8dc-4b170e8491e4"/>
+        <COMPID name="Interfaz_Personal_Almacen" mc="Standard.Class" uid="2aaf0d7c-3d34-4ac5-bdb9-ee9fdeb39071"/>
+        <COMPID name="Empleado" mc="Standard.Class" uid="a0024714-89e9-46f9-99ce-6601f1d15660"/>
+        <COMPID name="Controlador_Coordinador" mc="Standard.Class" uid="f9604fd7-d77f-4899-a7b4-1b942600fe34"/>
+        <COMPID name="Pedido" mc="Standard.Class" uid="8b540505-cc96-40db-9c20-8c6861d5b35d"/>
+        <COMPID name="Interfaz_Ayudante_Coordinador" mc="Standard.Class" uid="b69e37db-53b7-45dd-aa34-7847a2e19a05"/>
+        <COMPID name="Pieza" mc="Standard.Class" uid="1711b794-b526-4c2a-bb35-b552c2b032b3"/>
+        <COMPID name="Emplea" mc="Standard.Class" uid="c6aba70e-3238-43c8-8d34-6656ecf3067b"/>
+        <COMPID name="Factura" mc="Standard.Class" uid="9c49d541-7de5-4645-83b6-b7d04b295c1c"/>
+        <COMPID name="Presupuesto" mc="Standard.Class" uid="8626c10e-f903-4c0e-b2d8-05b602935fee"/>
+        <COMPID name="Parte_de_Trabajo" mc="Standard.Class" uid="8a4753ec-fcb5-45f1-910d-96910fe449ef"/>
+        <COMPID name="Peticion_De_trabajo" mc="Standard.Class" uid="37fd863d-2da2-4752-83b1-378fbe9853d7"/>
+        <COMPID name="Cliente" mc="Standard.Class" uid="52cbbd0c-dab5-4eb1-a503-361140ee3186"/>
+        <COMPID name="Oficina" mc="Standard.Class" uid="354fbf06-f5e6-4f84-bcc6-aab093a90ae9"/>
+        <COMPID name="Proveedor" mc="Standard.Class" uid="667d8f1e-48aa-4f12-b6b7-8a750ae0e247"/>
+        <COMPID name="Incluir_pedido" mc="Standard.Class" uid="0cfccddf-124a-470a-a621-d14167a8a705"/>
+        <COMPID name="Contenida_env1" mc="Standard.Class" uid="08c249f0-6e6d-4865-8a17-14f888fde235"/>
+        <COMPID name="Solicitada_a" mc="Standard.Class" uid="b8fca929-197d-4d66-82d0-3dce2cc1e59f"/>
+        <COMPID name="Fachada_BBDD" mc="Standard.Class" uid="7f851f95-13d3-41e9-8e8d-c6e83a5ddff2"/>
+        <COMPID name="Controlador_Proveedor" mc="Standard.Class" uid="2327e4fa-e8bb-4763-a66a-bb8ebde73113"/>
+        <COMPID name="Controlador_Cliente" mc="Standard.Class" uid="1e88b216-b31c-4ada-ad0e-14c4e631421a"/>
+        <COMPID name="Controlador_Validar_Usuario" mc="Standard.Class" uid="71680496-0e34-4266-ac4d-cc136664a771"/>
+        <COMPID name="Controlador_Ayudante_Coordinador" mc="Standard.Class" uid="1fb2b1a2-a24f-4a07-a506-5c5ae06c274e"/>
+        <COMPID name="Controlador_Responsable_Almacen" mc="Standard.Class" uid="d58cf4d3-2057-444d-ab9f-0194463ef187"/>
+        <COMPID name="Controlador_Personal_Almacen" mc="Standard.Class" uid="de8f1afa-e5df-4ec2-90e5-0490c1d15eb1"/>
+        <COMPID name="Controlador_Tecnico" mc="Standard.Class" uid="77181875-04b4-471f-a410-3b7d1fc72f0b"/>
+        <COMPID name="Class" mc="Standard.Class" uid="758e9eb6-8e3c-416d-88f0-f300c0329bf9"/>
+        <COMPID name="Interfaz_Responsable_Almacen" mc="Standard.Class" uid="9284b35d-d1e7-4331-83ed-8aab7bc454dd"/>
+        <COMPID name="Interfaz_Tecnico" mc="Standard.Class" uid="4d1f9e87-a963-416e-989f-52d2276dade8"/>
+        <COMPID name="Interfaz_Coordinador" mc="Standard.Class" uid="3ce7280e-9401-46cb-abb0-114a26bbd076"/>
+        <COMPID name="Controlador_Sistema" mc="Standard.Class" uid="ca7fc078-bd69-4013-b9ec-0a5bd73cd041"/>
+        <COMPID name="Interfaz_Validar_Usuario" mc="Standard.Class" uid="4bde711c-3b54-49f0-b131-9a2a3b2176b0"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="DiagramaClasesDiseño Class diagram" mc="Standard.ClassDiagram" uid="114ddf6f-f159-4626-be84-3f71de61b2b6"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="DiagramaSecuencia" version="4">
+  <OBJECT>
+    <ID name="DiagramaSecuencia" mc="Standard.Package" uid="a2fb072d-7140-49d8-a170-c4b098f0635f"/>
+    <PID name="PL1_Iteracion1" mc="Standard.Project" uid="05115382-c42f-4d77-b77b-69ac1171c84d"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[DiagramaSecuencia]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedBehavior">
+        <COMPID name="CU25-RecibirPedido" mc="Standard.Interaction" uid="108bebd7-bccf-43b6-8c9c-c88fb7923b4c"/>
+        <COMPID name="CU4-DarAltaCliente" mc="Standard.Interaction" uid="af538717-920a-423a-bca7-6ed4e7141d01"/>
+        <COMPID name="CU31-Modificación parte de trabajo" mc="Standard.Interaction" uid="51d8547b-9e75-4471-9e6b-27bcac627358"/>
+        <COMPID name="CU16-Dar de baja a un proveedor" mc="Standard.Interaction" uid="18e40e7f-011e-4362-a5c5-09367ad3f117"/>
+        <COMPID name="CU19-Realizar pedidos manualmente de piezas especiales" mc="Standard.Interaction" uid="28407188-6710-414f-9662-850c9c697c59"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

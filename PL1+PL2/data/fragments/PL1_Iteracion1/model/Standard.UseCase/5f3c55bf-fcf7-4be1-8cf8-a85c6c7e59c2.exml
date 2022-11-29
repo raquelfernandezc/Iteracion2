@@ -1,0 +1,139 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="CU19 - Realizar pedidos manualmente de piezas especiales" version="4">
+  <OBJECT>
+    <ID name="CU19 - Realizar pedidos manualmente de piezas especiales" mc="Standard.UseCase" uid="5f3c55bf-fcf7-4be1-8cf8-a85c6c7e59c2"/>
+    <PID name="PersonalAlmacen" mc="Standard.Package" uid="13bdbac9-5e7f-4596-b912-35dc0648912d"/>
+    <ATTRIBUTES>
+      <ATT name="IsElementary">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[CU19 - Realizar pedidos manualmente de piezas especiales]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="Used">
+        <OBJECT>
+          <ID name="UseCaseDependency" mc="Standard.UseCaseDependency" uid="1fdb686d-5749-48eb-99d9-22250fb70d4e"/>
+          <ATTRIBUTES>
+            <ATT name="Name"><![CDATA[UseCaseDependency]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Target">
+              <ID name="CU18 - Consultar piezas disponibles" mc="Standard.UseCase" uid="57ee4e7b-7c65-4415-b50c-047de55b2c1f"/>
+            </LINK>
+            <LINK relation="Extension">
+              <FOREIGNID name="extend" mc="Infrastructure.Stereotype" uid="00000000-0000-9c48-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+      <COMP relation="Descriptor">
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="3c5fac16-3727-4506-b282-40e4b8c6015e"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[Prioridad: alta
+
+Descripción: el personal de almacén y el responsable de almacen pueden realizar
+pedidos manuales de piezas especiales cuando sea necesario reponerlas. 
+Deben controlar que  estén disponibles las piezas necesarias para los trabajos pendientes
+
+Requisitos: RF12 y RF35.
+
+Frecuencia: 
+
+
+
+
+
+
+]]></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="627ae044-3dd8-408a-8b94-b5d91412f072"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="constraint" mc="Infrastructure.NoteType" uid="00bc0b8c-0000-251b-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="f2e6ba84-6564-41f7-aee7-1ef4a90070ab"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="non-functional constraint" mc="Infrastructure.NoteType" uid="00bc0c08-0000-242c-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="dddef784-86a4-4ce5-849f-68d9c26514c6"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[...]]></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="exception" mc="Infrastructure.NoteType" uid="00bc0b8c-0000-2519-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="5681ad2b-b856-4703-9ae8-cdf0d615804d"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[1. El usuario debe haber iniciado sesión como 'Responsable de almacén' o 'Personal de almacén' de forma correcta
+2. El usuario debe haber seleccionado en el apartado 'Consultar Piezas' la opción 'Realizar pedido de piezas especiales']]></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="precondition" mc="Infrastructure.NoteType" uid="00bc0b8c-0000-2515-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="" mc="Infrastructure.Note" uid="a8effdc0-1d2e-47f0-9690-7908ade72070"/>
+          <ATTRIBUTES>
+            <ATT name="Content"><![CDATA[1. El sistema genera un 'Pedido_Manual'que crea una relación de cantidad entre 'Pedido_Manual' y 'Pieza_especial, que a su vez hereda de 'Pieza. Además, se crean asociaciones entre 'Pedido_Manual ' y 'Pedido' que contiene los datos del pedido con estado 'no recibido', 'Pedido' y 'Oficina' que contiene el identificador de la oficina en la que se ha realizado el pedido, y, 'Pedido' y 'Proveedor'  que contiene la informacion del proveedor seleccionado por el usuario para el pedido
+
+2. El sistema almacena el fichero JSON del pedido realizado en un espacio compartido con el proveedor]]></ATT>
+            <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
+            <ATT name="Name"></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Model">
+              <FOREIGNID name="postcondition" mc="Infrastructure.NoteType" uid="00bc0b8c-0000-2517-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

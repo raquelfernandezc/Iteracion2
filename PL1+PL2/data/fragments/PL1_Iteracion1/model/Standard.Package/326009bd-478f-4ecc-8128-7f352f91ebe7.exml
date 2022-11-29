@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="DiagramaColaboracion" version="4">
+  <OBJECT>
+    <ID name="DiagramaColaboracion" mc="Standard.Package" uid="326009bd-478f-4ecc-8128-7f352f91ebe7"/>
+    <PID name="PL1_Iteracion1" mc="Standard.Project" uid="05115382-c42f-4d77-b77b-69ac1171c84d"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[DiagramaColaboracion]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedBehavior">
+        <COMPID name="CU25-RecibirPedido" mc="Standard.BpmnCollaboration" uid="8fd93c12-1106-4ebd-bea5-078730a3500f"/>
+        <COMPID name="CU-4" mc="Standard.BpmnCollaboration" uid="64f3cc72-947d-41b9-af1a-e309bec589ef"/>
+      </COMP>
+      <COMP relation="OwnedElement">
+        <COMPID name="ControladorPersonalAlmacen" mc="Standard.Class" uid="dbfe8783-b5ec-4d4d-a4e0-cfb4a83df970"/>
+        <COMPID name="Pedido" mc="Standard.Class" uid="1c5440cd-3ec0-4022-a586-331cb8e785ae"/>
+        <COMPID name="Empleado" mc="Standard.Class" uid="0920ae7e-6f7e-4ab9-b105-ae2452fabdcc"/>
+        <COMPID name="pieza" mc="Standard.Class" uid="52e6d6f1-2a5d-4d2f-939e-6bf12f99afaf"/>
+        <COMPID name="PersonalAlmacen" mc="Standard.Class" uid="50c93db2-85c4-4a85-9e54-2c1a984fd7ad"/>
+        <COMPID name="AyudanteCoordinador" mc="Standard.Class" uid="5ad27068-66c5-4843-91ab-bafca73a90f9"/>
+        <COMPID name="Cliente" mc="Standard.Class" uid="57cdb75c-8587-4de0-afa4-aadbe88d0759"/>
+        <COMPID name="ControladorAyudanteCoordinador" mc="Standard.Class" uid="50592a8d-78ce-475f-960d-b4c082a4d8c9"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="CU25 - RecibirPedido" mc="Standard.ClassDiagram" uid="3c9934b7-859b-4627-9b88-f042ebfea88a"/>
+        <COMPID name="CU4 -DarAltaCliente" mc="Standard.ClassDiagram" uid="ad83573f-bf84-442a-801a-8be670205377"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

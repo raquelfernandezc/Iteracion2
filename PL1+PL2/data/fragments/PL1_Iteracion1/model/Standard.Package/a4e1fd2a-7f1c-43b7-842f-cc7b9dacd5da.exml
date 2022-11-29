@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="DiagramaDeActividades" version="4">
+  <OBJECT>
+    <ID name="DiagramaDeActividades" mc="Standard.Package" uid="a4e1fd2a-7f1c-43b7-842f-cc7b9dacd5da"/>
+    <PID name="PL1_Iteracion1" mc="Standard.Project" uid="05115382-c42f-4d77-b77b-69ac1171c84d"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[DiagramaDeActividades]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedBehavior">
+        <COMPID name="Activity-Acceder al sistema" mc="Standard.Activity" uid="15b0faa9-c33f-4a64-a84d-86523753288b"/>
+        <COMPID name="Activity-Recibir pedido" mc="Standard.Activity" uid="893c4dd4-5776-4f2b-9a46-7579a7b1da07"/>
+        <COMPID name="Activity-Actualizar parte de trabajo" mc="Standard.Activity" uid="9e6d4e06-4d9f-4be3-9522-354f9fd46e71"/>
+        <COMPID name="Activity-Asignar trabajo a los tecnicos" mc="Standard.Activity" uid="93324b86-d6dd-40a1-a860-851a4567ad82"/>
+        <COMPID name="Activity-Dar alta a un cliente" mc="Standard.Activity" uid="3beb8090-2c05-4ddf-a4d0-3907fcb2604a"/>
+        <COMPID name="Activity-Consultar proveedores" mc="Standard.Activity" uid="0e687cd5-ee20-4dc7-a417-81c5e079c275"/>
+        <COMPID name="Activity-Consultar facturacion" mc="Standard.Activity" uid="82d34b21-6999-4a8c-a1d2-21e1b8a37b93"/>
+        <COMPID name="Activity-Dar de alta a los proveedores" mc="Standard.Activity" uid="94ad9c5d-9188-4fdc-b3ea-442e1fb7383b"/>
+        <COMPID name="Activity - Realizar pedidos manualmente de piezas especiales" mc="Standard.Activity" uid="989ccd5d-a339-4b44-bdb7-f0577f9c08f1"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

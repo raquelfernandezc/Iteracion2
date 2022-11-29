@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Coordinador" version="4">
+  <OBJECT>
+    <ID name="Coordinador" mc="Standard.Package" uid="84ab6c57-af3f-4422-99aa-d3996b4962db"/>
+    <PID name="CasosDeUso" mc="Standard.Package" uid="cb533d81-a49b-45ea-a535-e0359ea8de0b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[Coordinador]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Coordinador" mc="Standard.Actor" uid="0b635a7e-54e5-4ef9-9064-799c15c0f13f"/>
+        <COMPID name="CU1 - Acceder al sistema" mc="Standard.UseCase" uid="8e490c39-9516-4709-9df2-368507576e96"/>
+        <COMPID name="CU2 - Dar de baja cliente" mc="Standard.UseCase" uid="b7eaf2b4-853a-47d3-a757-9e99d90c458f"/>
+        <COMPID name="CU9 - Asignar trabajo a los técnicos" mc="Standard.UseCase" uid="f66f059f-b81f-4c65-9116-3f325d7e0bb0"/>
+        <COMPID name="Ayudante de coordinador" mc="Standard.Actor" uid="63c3b59b-be8d-44e4-82ad-f19062f67590"/>
+        <COMPID name="CU44 - Gestionar clientes " mc="Standard.UseCase" uid="2b6a278a-a1a6-43ea-b556-adec9e964be2"/>
+        <COMPID name="CU45 - Gestionar peticiones de trabajo" mc="Standard.UseCase" uid="6d6e7fe3-a341-4c90-b60d-17b521832097"/>
+        <COMPID name="CU12 - Consultar Trabajos Asignados a los Técnicos" mc="Standard.UseCase" uid="ea1d1b5c-4dad-49a8-97cd-1ded63a391c2"/>
+        <COMPID name="CU48 - Modificar Estado Petición" mc="Standard.UseCase" uid="bfeef76c-5049-4cf9-b6cc-581a8a0dc921"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Coordinador" mc="Standard.UseCaseDiagram" uid="927ba419-7117-40a5-85b4-6391cd913b5d"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="DirectorTécnico" version="4">
+  <OBJECT>
+    <ID name="DirectorTécnico" mc="Standard.Package" uid="6e3f87fe-cf87-4a78-855d-6f07538b78e0"/>
+    <PID name="CasosDeUso" mc="Standard.Package" uid="cb533d81-a49b-45ea-a535-e0359ea8de0b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[DirectorTécnico]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Director Técnico" mc="Standard.Actor" uid="0ea0693e-f80d-4abb-a7a4-bf3200029ca4"/>
+        <COMPID name="CU21 – Consultar todos los datos del sistema" mc="Standard.UseCase" uid="b29623d2-2960-4035-98b2-381489b488b0"/>
+        <COMPID name="CU22 – Consultar espacios compartidos" mc="Standard.UseCase" uid="2f212818-f00b-4968-a703-db884fc90340"/>
+        <COMPID name="CU1 - Acceder al sisstema" mc="Standard.UseCase" uid="837c7652-eaa2-4307-ace2-03b32b603d5e"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="Director Técnico" mc="Standard.UseCaseDiagram" uid="dbcf603e-59bc-481f-831c-ff9f633bafb2"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>

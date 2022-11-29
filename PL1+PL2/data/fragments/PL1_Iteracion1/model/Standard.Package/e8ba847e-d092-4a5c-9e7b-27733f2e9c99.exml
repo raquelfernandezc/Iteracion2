@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="ResponsableAlmacen" version="4">
+  <OBJECT>
+    <ID name="ResponsableAlmacen" mc="Standard.Package" uid="e8ba847e-d092-4a5c-9e7b-27733f2e9c99"/>
+    <PID name="CasosDeUso" mc="Standard.Package" uid="cb533d81-a49b-45ea-a535-e0359ea8de0b"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[ResponsableAlmacen]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Responsable de almacén" mc="Standard.Actor" uid="76df9c87-a531-4b19-a83e-8b3def500fc3"/>
+        <COMPID name="CU1 - Acceder al sistema" mc="Standard.UseCase" uid="add6e572-a43e-457a-a448-e60cf328d955"/>
+        <COMPID name="CU16 - Dar de baja a proveedor" mc="Standard.UseCase" uid="44ced978-6fe0-47c7-b264-37598355e2b7"/>
+        <COMPID name="CU17 - Eliminar pedido" mc="Standard.UseCase" uid="56f58ae6-ff3c-4f6d-882b-7dfef5843dde"/>
+        <COMPID name="Personal de almacén" mc="Standard.Actor" uid="b627b0ad-4947-4767-9791-bbd5ad7289fd"/>
+        <COMPID name="CU35 - Consultar información de los pedidos" mc="Standard.UseCase" uid="8c517927-cb32-494c-8ebc-1cefef4cea2a"/>
+        <COMPID name="CU40 - Consultar datos proveedores" mc="Standard.UseCase" uid="26353bd9-0947-4362-a2f8-8e259993b9ef"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="ResponsableAlmacen" mc="Standard.UseCaseDiagram" uid="3c7cb9ef-a3a8-44b5-8c42-bdeeec1262a7"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
