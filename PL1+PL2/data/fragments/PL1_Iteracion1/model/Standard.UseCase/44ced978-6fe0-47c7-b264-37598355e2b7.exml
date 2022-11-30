@@ -30,6 +30,10 @@
           </DEPENDENCIES>
         </OBJECT>
       </COMP>
+      <COMP relation="OwnedBehavior">
+        <COMPID name="CU16-interaction" mc="Standard.Interaction" uid="d8023457-f2c6-4cf1-a945-aafb216ea083"/>
+        <COMPID name="CU16-communication" mc="Standard.CommunicationInteraction" uid="9505a4c9-4cfc-47ef-9fbe-4ddc4fd8757d"/>
+      </COMP>
       <COMP relation="Descriptor">
         <OBJECT>
           <ID name="" mc="Infrastructure.Note" uid="b7fd9d73-6706-4beb-a841-96fa457e6583"/>

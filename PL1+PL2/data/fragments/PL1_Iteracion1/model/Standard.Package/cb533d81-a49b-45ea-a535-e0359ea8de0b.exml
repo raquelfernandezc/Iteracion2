@@ -14,7 +14,7 @@
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="OwnedBehavior">
-        <COMPID name="RecibirPedido" mc="Standard.CommunicationInteraction" uid="a8b7b203-5914-44ff-8fa7-f258cb48c0cf"/>
+        <COMPID name="DiagramaColaboracionRecibirPedido" mc="Standard.CommunicationInteraction" uid="a8b7b203-5914-44ff-8fa7-f258cb48c0cf"/>
       </COMP>
       <COMP relation="OwnedElement">
         <COMPID name="ResponsableAlmacen" mc="Standard.Package" uid="e8ba847e-d092-4a5c-9e7b-27733f2e9c99"/>
@@ -26,7 +26,6 @@
         <COMPID name="Coordinador" mc="Standard.Package" uid="84ab6c57-af3f-4422-99aa-d3996b4962db"/>
         <COMPID name="Tecnico" mc="Standard.Package" uid="cdc84ce3-0fb7-4be2-9775-f0b2522e3f5e"/>
         <COMPID name="Proveedor" mc="Standard.Package" uid="f8040d13-745b-4765-9d0d-1f242967ca5f"/>
-        <COMPID name="DiagramasColaboracion" mc="Standard.Package" uid="b345d0ae-3d8a-437f-a431-a692b0fde595"/>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>
