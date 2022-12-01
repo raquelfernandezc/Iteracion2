@@ -14,7 +14,8 @@
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="OwnedBehavior">
-        <COMPID name="Interaction" mc="Standard.Interaction" uid="8e9a0fa3-25c3-4fb9-9c0a-f4c1a6da1649"/>
+        <COMPID name="DiagramaSecuencia CU25" mc="Standard.Interaction" uid="8e9a0fa3-25c3-4fb9-9c0a-f4c1a6da1649"/>
+        <COMPID name="DiagramaColaboracionRecibirPedido" mc="Standard.CommunicationInteraction" uid="a8b7b203-5914-44ff-8fa7-f258cb48c0cf"/>
       </COMP>
       <COMP relation="Descriptor">
         <OBJECT>

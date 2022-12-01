@@ -2,7 +2,7 @@
 <!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="DiagramaColaboracionRecibirPedido" version="4">
   <OBJECT>
     <ID name="DiagramaColaboracionRecibirPedido" mc="Standard.CommunicationInteraction" uid="a8b7b203-5914-44ff-8fa7-f258cb48c0cf"/>
-    <PID name="CasosDeUso" mc="Standard.Package" uid="cb533d81-a49b-45ea-a535-e0359ea8de0b"/>
+    <PID name="CU25 - Recibir pedido" mc="Standard.UseCase" uid="ec76f388-b4fe-4ce0-8a23-13ccecb10052"/>
     <ATTRIBUTES>
       <ATT name="IsReentrant">false</ATT>
       <ATT name="Name"><![CDATA[DiagramaColaboracionRecibirPedido]]></ATT>
@@ -119,7 +119,7 @@
                     <OBJECT>
                       <ID name="m" mc="Standard.CommunicationMessage" uid="64094331-c6c3-492b-8d84-c5769016969e"/>
                       <ATTRIBUTES>
-                        <ATT name="Argument"><![CDATA[id_pedido in: Integer pedido out: Pedido]]></ATT>
+                        <ATT name="Argument"><![CDATA[numero_pedido in: Integer pedido out: Pedido]]></ATT>
                         <ATT name="Sequence"><![CDATA[1.1]]></ATT>
                         <ATT name="SortOfMessage">SyncCall</ATT>
                         <ATT name="Name"><![CDATA[m]]></ATT>
@@ -136,7 +136,7 @@
                     <OBJECT>
                       <ID name="m1" mc="Standard.CommunicationMessage" uid="b07296f6-8f22-4ce6-aeb3-5bf446760a59"/>
                       <ATTRIBUTES>
-                        <ATT name="Argument"><![CDATA[id_pedido in: Integer]]></ATT>
+                        <ATT name="Argument"><![CDATA[numero_pedido in: Integer]]></ATT>
                         <ATT name="Sequence"><![CDATA[3.1]]></ATT>
                         <ATT name="SortOfMessage">SyncCall</ATT>
                         <ATT name="Name"><![CDATA[m1]]></ATT>
@@ -169,7 +169,7 @@
                   </COMP>
                   <LINK relation="End">
                     <REFOBJ>
-                      <ID name="pedido " mc="Standard.CommunicationNode" uid="ff8bb34b-d8d4-4487-b9e4-799dc8cbbc28"/>
+                      <ID name="numero_pedido: Pedido" mc="Standard.CommunicationNode" uid="536221e3-39d7-4a5b-b13c-e59445cd5d54"/>
                     </REFOBJ>
                   </LINK>
                 </DEPENDENCIES>
@@ -193,19 +193,62 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="pedido " mc="Standard.CommunicationNode" uid="ff8bb34b-d8d4-4487-b9e4-799dc8cbbc28"/>
+          <ID name="r6" mc="Standard.CommunicationNode" uid="f700dd9b-eaa5-4d07-b6be-7195dc1009ca"/>
           <ATTRIBUTES>
             <ATT name="Selector"></ATT>
-            <ATT name="Name"><![CDATA[pedido ]]></ATT>
+            <ATT name="Name"><![CDATA[r6]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="Represented">
               <REFOBJ>
-                <ID name="r4" mc="Standard.BindableInstance" uid="ee9d9c3f-b666-4646-b04d-bf40a2282923"/>
+                <ID name="r6" mc="Standard.BindableInstance" uid="d63e4931-431d-4869-b800-6fbdfa949576"/>
               </REFOBJ>
             </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="numero_pedido: Pedido" mc="Standard.CommunicationNode" uid="536221e3-39d7-4a5b-b13c-e59445cd5d54"/>
+          <ATTRIBUTES>
+            <ATT name="Selector"></ATT>
+            <ATT name="Name"><![CDATA[numero_pedido: Pedido]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
             <COMP relation="Started">
+              <OBJECT>
+                <ID name="" mc="Standard.CommunicationChannel" uid="3c576a4e-3ffd-407c-b2b9-bbfdd8130fc3"/>
+                <ATTRIBUTES>
+                  <ATT name="Name"></ATT>
+                  <ATT name="status">1970354901745664</ATT>
+                </ATTRIBUTES>
+                <DEPENDENCIES>
+                  <COMP relation="StartToEndMessage">
+                    <OBJECT>
+                      <ID name="m" mc="Standard.CommunicationMessage" uid="1c70dd30-cffc-497c-a4ee-806703c0cbc0"/>
+                      <ATTRIBUTES>
+                        <ATT name="Argument"></ATT>
+                        <ATT name="Sequence"><![CDATA[3.2]]></ATT>
+                        <ATT name="SortOfMessage">SyncCall</ATT>
+                        <ATT name="Name"><![CDATA[m]]></ATT>
+                        <ATT name="status">1970354901745664</ATT>
+                      </ATTRIBUTES>
+                      <DEPENDENCIES>
+                        <LINK relation="Invoked">
+                          <REFOBJ>
+                            <ID name="addPedido" mc="Standard.Operation" uid="1fc10806-db18-4338-9ae5-6cf8e14a85a8"/>
+                          </REFOBJ>
+                        </LINK>
+                      </DEPENDENCIES>
+                    </OBJECT>
+                  </COMP>
+                  <LINK relation="End">
+                    <REFOBJ>
+                      <ID name="r6" mc="Standard.CommunicationNode" uid="f700dd9b-eaa5-4d07-b6be-7195dc1009ca"/>
+                    </REFOBJ>
+                  </LINK>
+                </DEPENDENCIES>
+              </OBJECT>
               <OBJECT>
                 <ID name="" mc="Standard.CommunicationChannel" uid="6e93eb13-23b0-43eb-bcb8-68b7b718ae39"/>
                 <ATTRIBUTES>
@@ -256,55 +299,23 @@
                   </LINK>
                 </DEPENDENCIES>
               </OBJECT>
+            </COMP>
+            <COMP relation="Descriptor">
               <OBJECT>
-                <ID name="" mc="Standard.CommunicationChannel" uid="3c576a4e-3ffd-407c-b2b9-bbfdd8130fc3"/>
+                <ID name="" mc="Infrastructure.Note" uid="fedc177e-e483-42da-8526-2f861760ae49"/>
                 <ATTRIBUTES>
+                  <ATT name="Content"><![CDATA[<Enter note text here>]]></ATT>
+                  <ATT name="MimeType"><![CDATA[text/plain]]></ATT>
                   <ATT name="Name"></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES>
-                  <COMP relation="StartToEndMessage">
-                    <OBJECT>
-                      <ID name="m" mc="Standard.CommunicationMessage" uid="1c70dd30-cffc-497c-a4ee-806703c0cbc0"/>
-                      <ATTRIBUTES>
-                        <ATT name="Argument"></ATT>
-                        <ATT name="Sequence"><![CDATA[3.2]]></ATT>
-                        <ATT name="SortOfMessage">SyncCall</ATT>
-                        <ATT name="Name"><![CDATA[m]]></ATT>
-                        <ATT name="status">1970354901745664</ATT>
-                      </ATTRIBUTES>
-                      <DEPENDENCIES>
-                        <LINK relation="Invoked">
-                          <REFOBJ>
-                            <ID name="addPedido" mc="Standard.Operation" uid="1fc10806-db18-4338-9ae5-6cf8e14a85a8"/>
-                          </REFOBJ>
-                        </LINK>
-                      </DEPENDENCIES>
-                    </OBJECT>
-                  </COMP>
-                  <LINK relation="End">
-                    <REFOBJ>
-                      <ID name="r6" mc="Standard.CommunicationNode" uid="f700dd9b-eaa5-4d07-b6be-7195dc1009ca"/>
-                    </REFOBJ>
+                  <LINK relation="Model">
+                    <FOREIGNID name="description" mc="Infrastructure.NoteType" uid="00000000-0000-3e81-0000-000000000000"/>
                   </LINK>
                 </DEPENDENCIES>
               </OBJECT>
             </COMP>
-          </DEPENDENCIES>
-        </OBJECT>
-        <OBJECT>
-          <ID name="r6" mc="Standard.CommunicationNode" uid="f700dd9b-eaa5-4d07-b6be-7195dc1009ca"/>
-          <ATTRIBUTES>
-            <ATT name="Selector"></ATT>
-            <ATT name="Name"><![CDATA[r6]]></ATT>
-            <ATT name="status">1970354901745664</ATT>
-          </ATTRIBUTES>
-          <DEPENDENCIES>
-            <LINK relation="Represented">
-              <REFOBJ>
-                <ID name="r6" mc="Standard.BindableInstance" uid="d63e4931-431d-4869-b800-6fbdfa949576"/>
-              </REFOBJ>
-            </LINK>
           </DEPENDENCIES>
         </OBJECT>
       </COMP>

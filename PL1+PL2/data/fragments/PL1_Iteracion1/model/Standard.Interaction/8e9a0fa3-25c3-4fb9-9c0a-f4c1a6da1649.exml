@@ -1,11 +1,11 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Interaction" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="DiagramaSecuencia CU25" version="4">
   <OBJECT>
-    <ID name="Interaction" mc="Standard.Interaction" uid="8e9a0fa3-25c3-4fb9-9c0a-f4c1a6da1649"/>
+    <ID name="DiagramaSecuencia CU25" mc="Standard.Interaction" uid="8e9a0fa3-25c3-4fb9-9c0a-f4c1a6da1649"/>
     <PID name="CU25 - Recibir pedido" mc="Standard.UseCase" uid="ec76f388-b4fe-4ce0-8a23-13ccecb10052"/>
     <ATTRIBUTES>
       <ATT name="IsReentrant">false</ATT>
-      <ATT name="Name"><![CDATA[Interaction]]></ATT>
+      <ATT name="Name"><![CDATA[DiagramaSecuencia CU25]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
@@ -71,7 +71,7 @@
           <DEPENDENCIES>
             <LINK relation="Covered">
               <REFOBJ>
-                <ID name="Lifeline" mc="Standard.Lifeline" uid="9237b435-3d56-4f0e-8a77-2390c9867655"/>
+                <ID name="Sistema" mc="Standard.Lifeline" uid="9237b435-3d56-4f0e-8a77-2390c9867655"/>
               </REFOBJ>
             </LINK>
           </DEPENDENCIES>
@@ -121,7 +121,7 @@
           <DEPENDENCIES>
             <LINK relation="Covered">
               <REFOBJ>
-                <ID name="Lifeline" mc="Standard.Lifeline" uid="9237b435-3d56-4f0e-8a77-2390c9867655"/>
+                <ID name="Sistema" mc="Standard.Lifeline" uid="9237b435-3d56-4f0e-8a77-2390c9867655"/>
               </REFOBJ>
             </LINK>
           </DEPENDENCIES>
@@ -171,7 +171,7 @@
           <DEPENDENCIES>
             <LINK relation="Covered">
               <REFOBJ>
-                <ID name="Lifeline" mc="Standard.Lifeline" uid="9237b435-3d56-4f0e-8a77-2390c9867655"/>
+                <ID name="Sistema" mc="Standard.Lifeline" uid="9237b435-3d56-4f0e-8a77-2390c9867655"/>
               </REFOBJ>
             </LINK>
           </DEPENDENCIES>
@@ -194,10 +194,10 @@
           </DEPENDENCIES>
         </OBJECT>
         <OBJECT>
-          <ID name="Lifeline" mc="Standard.Lifeline" uid="9237b435-3d56-4f0e-8a77-2390c9867655"/>
+          <ID name="Sistema" mc="Standard.Lifeline" uid="9237b435-3d56-4f0e-8a77-2390c9867655"/>
           <ATTRIBUTES>
             <ATT name="Selector"></ATT>
-            <ATT name="Name"><![CDATA[Lifeline]]></ATT>
+            <ATT name="Name"><![CDATA[Sistema]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES></DEPENDENCIES>

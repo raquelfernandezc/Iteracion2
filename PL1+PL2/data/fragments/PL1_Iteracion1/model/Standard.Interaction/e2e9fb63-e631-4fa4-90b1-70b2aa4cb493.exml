@@ -1,11 +1,11 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Interaction" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="Secuencia CU4" version="4">
   <OBJECT>
-    <ID name="Interaction" mc="Standard.Interaction" uid="e2e9fb63-e631-4fa4-90b1-70b2aa4cb493"/>
+    <ID name="Secuencia CU4" mc="Standard.Interaction" uid="e2e9fb63-e631-4fa4-90b1-70b2aa4cb493"/>
     <PID name="CU4 - Dar de alta al cliente" mc="Standard.UseCase" uid="94c65e3a-723c-4c48-a1bd-99ecdbccdb2e"/>
     <ATTRIBUTES>
       <ATT name="IsReentrant">false</ATT>
-      <ATT name="Name"><![CDATA[Interaction]]></ATT>
+      <ATT name="Name"><![CDATA[Secuencia CU4]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>

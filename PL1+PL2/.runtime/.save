@@ -1,5 +1,9 @@
-#Wed Nov 30 16:02:53 CET 2022
+#Thu Dec 01 11:28:37 CET 2022
+org.modelio.app.diagram.editor.OpenedDiagrams5='Diagrama de secuencia CU4 - Dar de alta al cliente' {95b04297-047e-4dc3-b3ad-6cf6ee94cce2} Standard.SequenceDiagram
+org.modelio.app.diagram.editor.OpenedDiagrams4='Communication Interaction Communication diagram' {166fc117-2758-4a66-9830-2cfacd5d3016} Standard.CommunicationDiagram
 org.modelio.app.diagram.editor.OpenedDiagrams3='Communication Interaction Communication diagram' {7bdc756a-e2b7-4acc-8bb4-01467eef4c2a} Standard.CommunicationDiagram
 org.modelio.app.diagram.editor.OpenedDiagrams2='Interaction Sequence diagram' {03cfbe17-ab80-4f1a-83b0-33fba86ba0fe} Standard.SequenceDiagram
 org.modelio.app.diagram.editor.OpenedDiagrams1='Diagrama de colaboraci\u00F3n CU4 - Dar de alta al cliente' {9ec2b5e7-e2ad-4dff-a90d-a0f53025a5c6} Standard.CommunicationDiagram
 org.modelio.app.diagram.editor.OpenedDiagrams0='DiagramaClasesDise\u00F1o Class diagram' {114ddf6f-f159-4626-be84-3f71de61b2b6} Standard.ClassDiagram
+org.modelio.app.diagram.editor.OpenedDiagrams7='Diagrama de secuencia CU25 - Recibir pedido' {a428f6d7-c63e-41ac-bcc8-e4ea3b6805d7} Standard.SequenceDiagram
+org.modelio.app.diagram.editor.OpenedDiagrams6='PersonalAlmacen Use Case diagram' {b13f5b6f-ae92-4b15-bbde-7a2bc19d9ccd} Standard.UseCaseDiagram

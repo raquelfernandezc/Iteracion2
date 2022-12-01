@@ -11,10 +11,9 @@
     <DEPENDENCIES>
       <COMP relation="Model">
         <COMPID name="DiagramaDeActividades" mc="Standard.Package" uid="a4e1fd2a-7f1c-43b7-842f-cc7b9dacd5da"/>
-        <COMPID name="CasosDeUso" mc="Standard.Package" uid="cb533d81-a49b-45ea-a535-e0359ea8de0b"/>
+        <COMPID name="Casos_Uso-Secuencia-Colaboracion" mc="Standard.Package" uid="cb533d81-a49b-45ea-a535-e0359ea8de0b"/>
         <COMPID name="DiagramaClasesDiseño" mc="Standard.Package" uid="c235bf76-e8b9-4420-8a29-b9b79e53e08f"/>
         <COMPID name="DiagramaSecuencia" mc="Standard.Package" uid="a2fb072d-7140-49d8-a170-c4b098f0635f"/>
-        <COMPID name="DiagramaColaboracion" mc="Standard.Package" uid="326009bd-478f-4ecc-8128-7f352f91ebe7"/>
       </COMP>
       <COMP relation="DiagramRoot">
         <COMPID name="PL1_Iteracion1" mc="Infrastructure.DiagramSet" uid="82a30d2c-6bf4-4994-9ff7-3feccc13db73"/>

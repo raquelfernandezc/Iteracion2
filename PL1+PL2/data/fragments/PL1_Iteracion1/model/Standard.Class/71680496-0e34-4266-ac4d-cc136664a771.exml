@@ -31,7 +31,7 @@
           <DEPENDENCIES>
             <COMP relation="IO">
               <OBJECT>
-                <ID name="nombre" mc="Standard.Parameter" uid="9ce2c645-1834-4268-a955-0e6cffdc87d1"/>
+                <ID name="usuario" mc="Standard.Parameter" uid="9ce2c645-1834-4268-a955-0e6cffdc87d1"/>
                 <ATTRIBUTES>
                   <ATT name="ParameterPassing">In</ATT>
                   <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
@@ -43,7 +43,7 @@
                   <ATT name="IsException">false</ATT>
                   <ATT name="IsStream">false</ATT>
                   <ATT name="Effect">ReadEffect</ATT>
-                  <ATT name="Name"><![CDATA[nombre]]></ATT>
+                  <ATT name="Name"><![CDATA[usuario]]></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES>

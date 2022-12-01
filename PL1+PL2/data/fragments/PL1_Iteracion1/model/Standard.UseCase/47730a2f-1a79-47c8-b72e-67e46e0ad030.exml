@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="CU43 - Dar de alta proveedores" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="CU42 - Dar de alta proveedores" version="4">
   <OBJECT>
-    <ID name="CU43 - Dar de alta proveedores" mc="Standard.UseCase" uid="47730a2f-1a79-47c8-b72e-67e46e0ad030"/>
+    <ID name="CU42 - Dar de alta proveedores" mc="Standard.UseCase" uid="47730a2f-1a79-47c8-b72e-67e46e0ad030"/>
     <PID name="PersonalAlmacen" mc="Standard.Package" uid="13bdbac9-5e7f-4596-b912-35dc0648912d"/>
     <ATTRIBUTES>
       <ATT name="IsElementary">false</ATT>
@@ -9,7 +9,7 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[CU43 - Dar de alta proveedores]]></ATT>
+      <ATT name="Name"><![CDATA[CU42 - Dar de alta proveedores]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
