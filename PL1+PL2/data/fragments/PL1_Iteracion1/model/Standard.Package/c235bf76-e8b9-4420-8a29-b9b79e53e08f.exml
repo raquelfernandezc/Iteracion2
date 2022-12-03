@@ -46,6 +46,7 @@
         <COMPID name="Interfaz_Coordinador" mc="Standard.Class" uid="3ce7280e-9401-46cb-abb0-114a26bbd076"/>
         <COMPID name="Controlador_Sistema" mc="Standard.Class" uid="ca7fc078-bd69-4013-b9ec-0a5bd73cd041"/>
         <COMPID name="Interfaz_Validar_Usuario" mc="Standard.Class" uid="4bde711c-3b54-49f0-b131-9a2a3b2176b0"/>
+        <COMPID name="Usuario" mc="Standard.Class" uid="6a2fef3f-e3ae-4e2a-8190-afa0c1331b12"/>
       </COMP>
       <COMP relation="Product">
         <COMPID name="DiagramaClasesDiseño Class diagram" mc="Standard.ClassDiagram" uid="114ddf6f-f159-4626-be84-3f71de61b2b6"/>
