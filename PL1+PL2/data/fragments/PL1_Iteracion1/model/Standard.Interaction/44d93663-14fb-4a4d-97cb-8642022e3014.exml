@@ -20,13 +20,13 @@
           <DEPENDENCIES>
             <COMP relation="SentMessage">
               <OBJECT>
-                <ID name="1. InsertarDatosPedido(idPieza, cantidad, idOficina, idProveedor)" mc="Standard.Message" uid="250fcfb8-fba7-42b2-8a3d-d971c7376f49"/>
+                <ID name="1. InsertarDatosPedido(idPieza, cantidad, idProveedor)" mc="Standard.Message" uid="250fcfb8-fba7-42b2-8a3d-d971c7376f49"/>
                 <ATTRIBUTES>
                   <ATT name="Argument"></ATT>
                   <ATT name="KindOfMessage">CompleteKind</ATT>
                   <ATT name="SortOfMessage">SyncCall</ATT>
                   <ATT name="Sequence"><![CDATA[1]]></ATT>
-                  <ATT name="Name"><![CDATA[1. InsertarDatosPedido(idPieza, cantidad, idOficina, idProveedor)]]></ATT>
+                  <ATT name="Name"><![CDATA[1. InsertarDatosPedido(idPieza, cantidad, idProveedor)]]></ATT>
                   <ATT name="status">1970354901745664</ATT>
                 </ATTRIBUTES>
                 <DEPENDENCIES>

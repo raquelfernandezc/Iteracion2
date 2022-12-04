@@ -40,7 +40,6 @@
         <COMPID name="Controlador_Responsable_Almacen" mc="Standard.Class" uid="d58cf4d3-2057-444d-ab9f-0194463ef187"/>
         <COMPID name="Controlador_Personal_Almacen" mc="Standard.Class" uid="de8f1afa-e5df-4ec2-90e5-0490c1d15eb1"/>
         <COMPID name="Controlador_Tecnico" mc="Standard.Class" uid="77181875-04b4-471f-a410-3b7d1fc72f0b"/>
-        <COMPID name="Class" mc="Standard.Class" uid="758e9eb6-8e3c-416d-88f0-f300c0329bf9"/>
         <COMPID name="Interfaz_Responsable_Almacen" mc="Standard.Class" uid="9284b35d-d1e7-4331-83ed-8aab7bc454dd"/>
         <COMPID name="Interfaz_Tecnico" mc="Standard.Class" uid="4d1f9e87-a963-416e-989f-52d2276dade8"/>
         <COMPID name="Interfaz_Coordinador" mc="Standard.Class" uid="3ce7280e-9401-46cb-abb0-114a26bbd076"/>
