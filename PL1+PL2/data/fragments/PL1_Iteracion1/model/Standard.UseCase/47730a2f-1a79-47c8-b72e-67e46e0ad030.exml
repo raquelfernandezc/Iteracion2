@@ -30,6 +30,10 @@
           </DEPENDENCIES>
         </OBJECT>
       </COMP>
+      <COMP relation="OwnedBehavior">
+        <COMPID name="Secuencia" mc="Standard.Interaction" uid="702fa4e5-fde9-4abb-9765-e93103f9d0d6"/>
+        <COMPID name="Colaboracion" mc="Standard.CommunicationInteraction" uid="cd0291e6-88eb-435b-8184-feeab93abfca"/>
+      </COMP>
       <COMP relation="Descriptor">
         <OBJECT>
           <ID name="" mc="Infrastructure.Note" uid="1fa2a38b-c9db-4006-bcd8-a943789e1075"/>
